@@ -1,0 +1,10 @@
+If needed to create and activate the virtual environment manually;
+
+Create virtual environment:
+py -m venv ce301_cimen_kuzey
+
+Activate virtual environment:
+.\ce301_cimen_kuzey\Scripts\activate
+
+Install required packages:
+pip install -r requirements.txt

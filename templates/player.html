@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play vs Player</title>
+    <link rel="stylesheet" type="text/css" href="static/chessboard.css" />
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
+    <script type="text/javascript" src="static/jquery.min.js"></script>
+    <script type="text/javascript" src="static/chessboard.js"></script>
+    <script type="text/javascript" src="static/script.js"></script>
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <ul id="nav-bar">
+        <li><a class="active" href="./">Home</a></li>
+        <li><a href="./ai">Play vs AI</a></li>
+        <li><a href="./player">Play vs Player</a></li>
+        <li><a href="./bots">Bots</a></li>
+        <li><a href="./leaderboard">Leaderboard</a></li>
+        <li style="float:right"><a href="./contact">Contact</a></li>
+        <li style="float:right"><a href="./about">About</a></li>
+        <li style="float:right"><a href="./updates">Updates</a></li>
+        <li style="float:right"><a href="./register">Sign Up</a></li>
+        <li style="float:right"><a href="./login">Login</a></li>
+    </ul>
+    <div id="main">
+        <div id="game">
+            <!-- Board Div -->
+            <div id="board" style="width: 700px"></div>
+            <div id="history"></div>
+            <div id="menu">
+                <!-- Reset Button -->
+                <input id="takeback" type="button" value="Offer Takeback" onclick="takeback()"/>
+                <input id="draw" type="button" value="Offer Draw" onclick="draw()"/>
+                <input id="resign" type="button" value="Resign" onclick="resign()"/>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
